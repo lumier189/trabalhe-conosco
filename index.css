@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+  
+
+   
+}
+header{
+    background-color: white;
+}
+
+.promo {
+  background-color:#C2185B;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  height: 4em;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 45px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    
+   
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: white;
+    color: white;
+  }
+ 
+ .formularios {
+  color: #9B9B9B;
+  margin: 2% 3%;
+  padding: 0 10%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+ }
+ .formularios h1 {
+   color:#575757;
+ }
+ .formularios input[type="text"] {
+  width:100%;
+ }
+ .formularios input[type="tel"] {
+  width: 100%;
+ }
+ .formularios input[type="email"] {
+  width: 100%;
+ }
+ .formularios select{
+  
+  width: 100%;
+ }
+
+ .formularios textarea{
+  width: 100%;
+  max-height: 6em;
+ }
+ .formularios input[type="submit"] {
+  width: 100%;
+  background-color: #C2185B;
+  border: none;
+  margin-bottom: 1em;
+  color: white;
+
+ }
+
+ input[type="submit"]:hover {
+  background-color: white;
+  color: #C2185B;
+  box-shadow: 0px 1px 5px black;
+ }
+
+
+
+ main aside {
+  margin: 2% 3%;
+  padding: 8% 10%;
+
+ }
+
+ 
+footer {
+  padding-right:  10%;;
+  padding-left: 4%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+  background-color: #C2185B;
+  text-align: start;
+  color: white;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+  font-family: 'Open Sans', sans-serif;
+
+  
+}
+
+footer ul {
+  list-style: none;
+  margin-inline-end: -20px;
+}
+
+footer a {
+  color: white;
+}
+
+footer h3 {
+  text-align: start;
+}
+
+footer img {
+  width: 100px;
+  margin-top: -6%;
+}
+
+footer nav {
+  margin-left: -30px;
+  white-space: nowrap;
+  display: flex;
+  font-size: xx-small;
+  
+}
+footer nav strong{
+  font-size: small;
+
+}
+
+.textofooter p {
+  font-size: xx-small;
+  margin-top: -10%; 
+}
+
+@media (min-width: 1040px){
+  main {
+    display: flex;
+  }
+
+  .formularios h1 {
+    font-size: 39px;
+    
+
+  }
+
+  .formularios {
+   
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    
+  }
+
+  .formularios input[type="submit"] {
+    width: 35vw;
+    background-color: #C2185B;
+    border: none;
+    margin-bottom: 1em;
+    color: white;
+    margin-bottom: 15%;
+    font-size: large;
+  }
+
+  .formularios {
+    font-size: larger;
+  }
+  
+  .aside {
+    margin: 0;
+    color: #575757;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+
+   
+  }
+
+  footer {
+    padding: 0;
+    background-color: #C2185B;
+    text-align: start;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    
+    
+  }
+
+  footer ul {
+      list-style: none;
+      margin-inline-end: 2em;
+      
+
+  }
+
+  footer a {
+      color: white;
+  }
+
+  footer img {
+    width:233px;
+    height:123px;
+    margin-top: 1em;
+    text-align: start;
+    
+      
+  }
+
+  footer nav {
+    
+      white-space: nowrap;
+      display: flex;
+      font-size: larger;
+      
+  }
+  footer nav strong{
+      font-size: x-large;
+
+  }
+
+
+  .textofooter p {
+      font-size: 18px ;
+      
+
+
+  }
+}
+
+  
+  
+  
+  
+  
+  

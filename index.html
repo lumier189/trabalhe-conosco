@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>ShoesStore</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Roboto:wght@500&display=swap');
+        </style>
+         
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+    </head>
+    <body>
+        <header>
+    
+            <!-- Top Navigation Menu -->
+            <div class="topnav">
+                <a href="#home" class="active"><img src="https://cdn.discordapp.com/attachments/727458678638379082/1003704614551572631/logo-color.png" alt="logo"></a>
+                <!-- Navigation links (hidden by default) -->
+                <div id="myLinks">
+                    <a href="#news">TODOS OS PRODUTOS</a>
+                    <a href="#contact">COLEÇÃO</a>
+                    <a href="#about">OUTLET</a>
+                </div>
+                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </header>
+        <div class="promo">
+            <h3>MÊS DE SETEMBRO - FRETE GRÁTIS PARA TODO O BRASIL!</h3>
+        </div>
+        <main>
+            <section class="formularios">
+                <form action="" method="POST">
+                    <h1>Faça parte do nosso time</h1>
+                    <label for="Nome">Nome</label><br>
+                    <input type="text" id="nome" placeholder="Digite seu nome aqui" required>
+                    <br><br>
+                    <label for="Email">Email</label><br>
+                    <input type="email" id="email" placeholder="seuemail@email.com" required>
+                    <br><br>
+                    <label for="Telefone">Telefone</label><br>
+                    <input type="tel" id="telefone" placeholder="(dd) xxxx-xxxx" >
+                    <br><br>
+                    <label for="Departamentos">Departamentos</label><br>
+                    <select name="Departamentos" id="departamentos" required>
+                        <option></option>
+                        <option value="departamento1">Departamento 1</option>
+                        <option value="departamento2">Departamento 2</option>
+                        <option value="departamento3">Departamento 3</option>
+                        <option value="departamento4">Departamento 4</option>
+                    </select> <br><br>
+                
+                
+                    
+                    <label>Disponibilidade</label><br>
+                    <input type="checkbox" id="Integral(8h)" name="Disponibilidade" value="Integral(8)"><label for="Integral(8)">Integral(8)</label>
+            
+                    <input type="checkbox" id="Meio Periodo(4h)" name="Disponibilidade" value="Meio Periodo(4h)"><label for="Meio Periodo(4h)">Meio Periodo(4h)</label>
+            
+            <input type="checkbox" id="Freelacer" name="Disponibilidade" value="Freelancer"><label for="Freelancer">Freelancer</label><br>
+            
+                    
+                    <br>
+                    <label> Qual a melhor forma de entrar em contato com você? </label> <br>
+                   
+                    <input type="radio" id="Email" name="contato" value="Email"><label for="Email">Email</label>
+                   
+                     <input type="radio" id="Ligação" name="contato" value="Ligação"><label for="Ligação">Ligação</label>
+                    
+                     <input type="radio" id="Whatsapp" name="contato" value="Whatsapp"><label for="Whatsapp">Whatsapp</label>
+            
+                     <br><br>
+                    <label for="Mensagem">Mensagem</label><br>
+                     <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea> <br><br>
+                     
+                     <label for="">Curriculo</label>
+                     <input type="file" id="curriculo" name="curriculo"><br><br>
+                     
+                     <input type="submit" value="enviar"><br>
+                </form>
+
+            </section>
+            
+            <aside class="aside">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci assumenda, obcaecati, quam aperiam accusantium maiores explicabo eligendi doloribus placeat mollitia, suscipit praesentium ea necessitatibus animi ipsam at facilis odit illo.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, optio laudantium. Cupiditate impedit at iure assumenda aliquam maiores deleniti veniam ad ut itaque a dolore quia, voluptatibus magni laborum rerum.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, dignissimos dolorum delectus modi iure cum adipisci at quos voluptatem sequi incidunt inventore cupiditate est saepe doloribus unde vel laborum quisquam!
+                    
+
+
+                </p>
+                
+            </aside>
+
+        </main>
+        <footer>
+            <div class="textofooter">
+                <img src="https://cdn.discordapp.com/attachments/727458678638379082/1003715596946526238/logo-white.png" alt="">
+                <p> Lorem ipsum dolor sit amet<br /> consectetur adipisicing elit. Esse rem<br /> facilis perspiciatis
+                    reiciendis magnam. </p>
+            </div>
+    
+            <nav class="listas">
+                <div class="lista1">
+                    <ul>
+                        <li><strong>categorias</strong></li>
+                        <li><a href="">sandálias</a></li>
+                        <li><a href="">botas</a></li>
+                        <li><a href="">tênis</a></li>
+                        <li><a href="">oxford</a></li>
+                        <li><a href="">coturnos</a></li>
+                    </ul>
+                </div>
+                <div class="lista2">
+                    <ul class="esquerdo">
+                        <li><strong>institucional</strong></li>
+                        <li><a href="">sobre nós</a></li>
+                        <li><a href="">perguntas frequentes</a></li>
+                        <li><a href="">política de privacidade</a></li>
+                        <li><a href="">rastreamento de pedidos</a></li>
+                        <li><a href="">trabalhe conosco</a></li>
+                        <li><a href="">contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </footer>
+    </body>
+</html>
