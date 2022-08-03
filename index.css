@@ -23,6 +23,7 @@ header{
   justify-content: center;
   align-items: center;
   z-index: 15;
+  font-family: "Open sans", "sans-serif";
 }
 .topnav {
     overflow: hidden;
@@ -79,6 +80,14 @@ header{
  .formularios h1 {
    color:#575757;
  }
+ .formularios input {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #575757;
+ }
+
+
  .formularios input[type="text"] {
   width:100%;
  }
@@ -89,22 +98,24 @@ header{
   width: 100%;
  }
  .formularios select{
-  
+  padding:5px;
+  border: 1px solid #575757;
+  border-radius: 8px;
   width: 100%;
  }
 
  .formularios textarea{
   width: 100%;
   max-height: 6em;
+  resize: none;
  }
- .formularios input[type="submit"] {
-  width: 100%;
-  background-color: #C2185B;
+ .formularios input[type="file"]{
   border: none;
-  margin-bottom: 1em;
   color: white;
-
+  
  }
+ 
+
 
  input[type="submit"]:hover {
   background-color: white;
