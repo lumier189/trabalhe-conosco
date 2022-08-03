@@ -109,11 +109,39 @@ header{
   max-height: 6em;
   resize: none;
  }
+
  .formularios input[type="file"]{
   border: none;
   color: white;
-  
+  }
+
+ .custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
  }
+
+ .custom-file-input:before{
+  content: 'upload ';
+  display: inline-block;
+  border: 1px solid #999;
+  border-radius: 8px;
+  width: 100px;
+  text-align: center;
+  padding: 5px 8px;
+  outline: none;
+  color: white;
+  background-color: #c4c4c4;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 14pt;
+
+ }
+
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
  
 
 
@@ -122,6 +150,16 @@ header{
   color: #C2185B;
   box-shadow: 0px 1px 5px black;
  }
+ 
+ .formularios input[type="submit"] {
+  width: 300px;
+  background-color: #C2185B;
+  border: none;
+  margin-bottom: 1em;
+  color: white;
+  margin-bottom: 15%;
+  font-size: large;
+}
 
 
 
