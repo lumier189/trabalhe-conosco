@@ -152,7 +152,7 @@ header{
  }
  
  .formularios input[type="submit"] {
-  width: 300px;
+  width: 100%;
   background-color: #C2185B;
   border: none;
   margin-bottom: 1em;
@@ -241,7 +241,7 @@ footer nav strong{
   }
 
   .formularios input[type="submit"] {
-    width: 35vw;
+    width: 100%;
     background-color: #C2185B;
     border: none;
     margin-bottom: 1em;
